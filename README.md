@@ -162,6 +162,8 @@ make dist
 
 QQ 交流群 和 作者 QQ：
 
+- 秋秋
+
 <div style="display: flex; flex-wrap: wrap; gap: 10px">
   <img width="240px" src="readme/qq.jpg" alt="QQ群" style="border-radius: 20px" />
   <img width="240px" src="readme/qq-person.png" alt="QQ" style="border-radius: 20px" />
