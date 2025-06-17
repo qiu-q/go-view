@@ -7,6 +7,7 @@ import { TreeMapConfig } from './TreeMap/index'
 import { DialConfig } from './Dial/index'
 import { SankeyConfig } from './Sankey/index'
 import { GraphConfig } from './Graph/index'
+import { MachineTopologyConfig } from './MachineTopology/index'
 
 export default [
   ProcessConfig,
@@ -16,6 +17,7 @@ export default [
   WaterPoloConfig,
   TreeMapConfig,
   GraphConfig,
+  MachineTopologyConfig,
   SankeyConfig,
   DialConfig
 ]

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "A",
+      "name": "Machine A",
+      "symbol": "image://https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel1.jpeg",
+      "symbolSize": 60,
+      "x": 0,
+      "y": 0,
+      "value": 10,
+      "category": 0
+    },
+    {
+      "id": "B",
+      "name": "Machine B",
+      "symbol": "image://https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel2.jpeg",
+      "symbolSize": 60,
+      "x": 200,
+      "y": 0,
+      "value": 10,
+      "category": 1
+    },
+    {
+      "id": "C",
+      "name": "Machine C",
+      "symbol": "image://https://naive-ui.oss-cn-beijing.aliyuncs.com/carousel-img/carousel3.jpeg",
+      "symbolSize": 60,
+      "x": 100,
+      "y": 150,
+      "value": 10,
+      "category": 0
+    }
+  ],
+  "links": [
+    { "source": "A", "target": "B" },
+    { "source": "A", "target": "C" },
+    { "source": "B", "target": "C" }
+  ],
+  "categories": [
+    { "name": "Group1" },
+    { "name": "Group2" }
+  ]
+}
