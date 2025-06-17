@@ -1,7 +1,6 @@
 import { useRoute } from 'vue-router'
 import { ResultEnum, RequestHttpHeaderEnum } from '@/enums/httpEnum'
 import { ErrorPageNameMap, PageEnum, PreviewEnum } from '@/enums/pageEnum'
-import { docPath, giteeSourceCodePath } from '@/settings/pathConst'
 import { SystemStoreEnum, SystemStoreUserInfoEnum } from '@/store/modules/systemStore/systemStore.d'
 import { StorageEnum } from '@/enums/storageEnum'
 import { clearLocalStorage, getLocalStorage, clearCookie } from './storage'
@@ -126,21 +125,6 @@ export const openNewWindow = (url: string) => {
   return window.open(url, '_blank')
 }
 
-/**
- * * 打开项目文档
- * @param url
- */
-export const openDoc = () => {
-  openNewWindow(docPath)
-}
-
-/**
- * * 打开码云仓库地址
- * @param url
- */
-export const openGiteeSourceCode = () => {
-  openNewWindow(giteeSourceCodePath)
-}
 
 /**
  * * 判断是否是预览页
