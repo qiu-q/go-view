@@ -4,6 +4,18 @@ import { CreateComponentType } from '@/packages/index.d'
 import cloneDeep from 'lodash/cloneDeep'
 import dataJson from './data.json'
 
+import {
+  GraphLayout as BaseGraphLayout,
+  LabelSwitch as BaseLabelSwitch,
+  LabelPosition as BaseLabelPosition,
+  LayoutAnimation as BaseLayoutAnimation
+} from '../Graph/config'
+
+export const GraphLayout = BaseGraphLayout
+export const LabelSwitch = BaseLabelSwitch
+export const LabelPosition = BaseLabelPosition
+export const LayoutAnimation = BaseLayoutAnimation
+
 export const includes = []
 
 export const option = {
