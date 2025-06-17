@@ -3,6 +3,7 @@ import { MachineTopologyConfig } from './index'
 import { CreateComponentType } from '@/packages/index.d'
 import cloneDeep from 'lodash/cloneDeep'
 import dataJson from './data.json'
+
 import {
   GraphLayout as BaseGraphLayout,
   LabelSwitch as BaseLabelSwitch,
